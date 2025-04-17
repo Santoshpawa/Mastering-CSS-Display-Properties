@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#container>{
+            width: 80%;
+        }
+        div>div:nth-of-type(1){
+            display: block;
+            border: 2px solid;
+            background-color: antiquewhite;
+        }
+        div div:nth-of-type(2){
+            display: inline;
+            border: 2px solid;
+            margin: 10px;
+            background-color: rgb(218, 137, 17);
+        }
+        div>div:nth-of-type(3){
+            display: inline-block;
+            border: 2px solid;
+            background-color: cadetblue;
+        }
+        div>div:nth-of-type(4){
+            display: none;
+            border: 2px solid;
+            background-color: firebrick;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <h2>This is block one</h2>
+            <h2>box</h2>
+        </div>
+        <div id="box2">
+            <h2>This is block two</h2>
+            <h2>box</h2>
+        </div>
+        <div id="box3">
+            <h2>This is block three</h2><h2>box</h2>
+        </div>
+        <div id="box4">
+            <h2>This is block four</h2>
+            <h2>box</h2>
+        </div>
+    </div>
+</body>
+</html>
